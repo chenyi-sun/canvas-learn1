@@ -97,7 +97,7 @@ var canvas = tela.getContext('2d');
 
 var Particle = function () {
 function Particle(canvas, progress) {
-  _classCallCheck(this, Particle);//判断
+  _classCallCheck(this, Particle);//判断浏览器是否支持function 里面的this 指向 Particle
 
   var random = Math.random();
   this.progress = 0;
